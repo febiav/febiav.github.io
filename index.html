@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DREAMHOUSE</title>
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div id="sun"> </div>
+
+  <div id="house">
+    <div id="bedroomOFF" class="bedroom">
+      <div id="lightswitchON" class="lightswitch">
+      </div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556056830/TLbedroomON.svg">
+    </div>
+    <div id="bedroomON" class="bedroom" style="display:none;">
+      <div id="lightswitchOFF" class="lightswitch"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556056830/TLbedroomOFF.svg">
+    </div>
+
+    <div id="livingroomOFF" class="livingroom">
+      <div id="knobOFF" class="knob"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556167011/TRlivingroomOFF.svg">
+    </div>
+    <div id="livingroomON1" class="livingroom" style="display:none;">
+      <div id="knobON1" class="knob"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556167519/TRlivingroomON1.svg">
+    </div>
+    <div id="livingroomON2" class="livingroom" style="display:none;">
+      <div id="knobON2" class="knob">
+      </div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556167519/TRlivingroomON2.svg">
+    </div>
+
+    <div id="kitchenOFF" class="kitchen">
+      <div id="dogfoodOFF" class="dogfood"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1555887389/BLkitchenOFF.svg">
+
+    </div>
+    <div id="kitchenON1" class="kitchen" style="display:none;">
+      <div id="dogfoodON1" class="dogfood"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1555887389/BLkitchenON1.svg">
+    </div>
+    <div id="kitchenON2" class="kitchen" style="display:none;">
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1555887389/BLkitchenON2.svg">
+    </div>
+
+    <div id="bathroomOFF" class="bathroom">
+      <div class="bath"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556066345/Asset_26.svg">
+    </div>
+    <div id="bathroomON1" class="bathroom" style="display:none;">
+      <div class="puddle"></div>
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556075926/Asset_27.svg">
+    </div>
+    <div id="bathroomON2" class="bathroom" style="display:none;">
+      <img src="https://res.cloudinary.com/dm8pspfe1/image/upload/v1556075926/Asset_28.svg">
+    </div>
+
+    <!--    FOOTER TEXT  -->
+
+    <div id="footer">
+
+      <div id="housetxt" class="text">
+        <h2> Welcome to Little Febia’s house. Her parents let her stay alone for the first time, but she seems to have forgotten a few chores. </h2>
+        <a href="#" class="next" id="next2">&#8250;     
+      </a>
+      </div>
+
+      <div id="kitchentxt" class="text" style="display:none;">
+        <h2>Glop, the dog, looks hungry. Let’s feed him by clicking the dog food. Be careful not to feed him too much!</h2>
+        <a href="#" class="previous" id="previous3">&#8249;
+        </a>
+        <a href="#" class="next" id="next3">&#8250;     
+       </a>
+      </div>
+      
+     <div id="bathroomtxt1" class="text" style="display:none;">
+        <h2>Oh no! Febia left the water running and the bathroom is a mess. Click the shower head to turn it off. </h2>
+        <a href="#" class="previous" id="previous4">&#8249;
+        </a>
+        <a href="#" class="next" id="next4">&#8250;     
+       </a>
+     </div> 
+      
+     <div id="bathroomtxt2" class="text" style="display:none;">
+        <h2>Let’s mop the floor so no one slips. Click the puddle to clean it up.</h2>
+        <a href="#" class="previous" id="previous5">&#8249;
+        </a>
+        <a href="#" class="next" id="next5">&#8250;     
+       </a>
+     </div> 
+      
+     <div id="livingroomtxt" class="text" style="display:none;">
+        <h2>Next, let’s check out the living room. Little Febia left the television on. Click the button on the TV to turn it off.          </h2>
+        <a href="#" class="previous" id="previous6">&#8249;
+        </a>
+        <a href="#" class="next" id="next6">&#8250;     
+       </a>
+     </div> 
+      
+     <div id="bedroomtxt" class="text" style="display:none;">
+        <h2>It’s starting to get late and Febia should get some rest. Turn off the light’s in her room so she will go to bed. 
+        </h2>
+        <a href="#" class="previous" id="previous7">&#8249;
+        </a>
+        <a href="#" class="next" id="next7">&#8250; 
+       </a>
+     </div>
+      
+     <div id="finaltxt" class="text" style="display:none;">
+        <h2>Febia's parents just got home and you’ve completed all the chores just in time!! Great job! 
+        </h2>
+        <a href="#" class="previous" id="previous8">&#8249;
+        </a>
+    </div>
+    
+  </div>
+<script src="scripts/index.js"></script>
+  </body>
+  
+  </html>
+ 
